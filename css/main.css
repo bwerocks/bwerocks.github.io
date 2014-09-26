@@ -152,14 +152,93 @@ body {
     width: 250px;
 }
 
+.MainLogo {
+    max-width: 300px;
 
+    -webkit-animation: lets-start 2s 1;
+       -moz-animation: lets-start 2s 1;
+        -ms-animation: lets-start 2s 1;
+         -o-animation: lets-start 2s 1;
+            animation: lets-start 2s 1;
+}
 
+.Slogan {
+    font: 18px "Lato";
+}
 
+.ContactLink {
+    display: inline-block;
+    padding: 3px 6px;
+    margin-top: 10px;
 
+    color: #fff;
+    font: 300 18px "Lato";
+    text-decoration: none;
 
+    background-color: #111;
 
+    -webkit-transition: all .3s ease;
+       -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+         -o-transition: all .3s ease;
+            transition: all .3s ease;
+}
 
+.ContactLink:hover {
+    color: #ddd; 
 
+    background-color: #666;
+}
+
+@-webkit-keyframes lets-start {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes lets-start {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes lets-start {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes lets-start {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes lets-start {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 /* ==========================================================================
    Helper classes
