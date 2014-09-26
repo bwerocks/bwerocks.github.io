@@ -97,12 +97,60 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html,
+body {
+    height: 100%;
+}
 
+.Page {
+    position: fixed;
+    top: 0;
+    left: 0;
 
+    display: table;
+    width: 100%;
+    height: 100%;
 
+    text-align: center;
+}
 
+.Page-Content {
+    display: table-cell;
 
+    vertical-align: middle;
+}
 
+.Impressive {
+    position: relative;
+
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+
+.Impressive-Content {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+
+    width: 100%;
+
+    color: #ffdc00;
+    font-family: "Press Start 2P";
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.Impressive-Image {
+    width: 250px;
+}
 
 
 
