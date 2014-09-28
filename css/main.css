@@ -112,6 +112,10 @@ body {
     height: 100%;
 
     text-align: center;
+
+    background: url(../img/wppr.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .Page-Content {
@@ -153,7 +157,8 @@ body {
 }
 
 .MainLogo {
-    max-width: 300px;
+    max-width: 250px;
+    margin-bottom: 50px;
 
     -webkit-animation: lets-start 2s 1;
        -moz-animation: lets-start 2s 1;
@@ -164,6 +169,7 @@ body {
 
 .Slogan {
     font: 18px "Lato";
+    color: #fff;
 }
 
 .ContactLink {
