@@ -1,0 +1,21 @@
+.PageHeader {
+    @extend %full-bg-image;
+    @extend %pseudo-overlay;
+
+    background-image: url(../img/guys.png);
+
+    &:before {
+        background-color: rgba($primary-color, .8);
+        content: "";
+    }
+}
+
+.PageHeader-Content {
+    position: relative;
+}
+
+.PageHeader-Title {
+    margin: 0;
+
+    text-align: center;
+}

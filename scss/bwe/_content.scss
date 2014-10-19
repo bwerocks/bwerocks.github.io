@@ -1,0 +1,15 @@
+.PageContent {
+    @extend %full-bg-image;
+    @extend %pseudo-overlay;
+    background-image: url(../img/guys--jumping.png);
+
+    &:before {
+        background-color: rgba($secondary-color, .8);
+
+        content: "";
+    }
+}
+
+.PageContent-Content {
+    position: relative;
+}
