@@ -1,4 +1,10 @@
+html {
+    font: #{$base-font-size}px; 
+}
+
 body {
     max-width: $page-max-width;
     margin: 0 auto;
+
+    font-family: $primary-font;
 }
