@@ -1,5 +1,7 @@
 html {
-    font: #{$base-font-size}px; 
+    font-size: #{$base-font-size}px; 
+    line-height: 1;
+    font-weight: 300;
 }
 
 body {

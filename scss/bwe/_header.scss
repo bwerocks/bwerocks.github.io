@@ -12,10 +12,16 @@
 
 .PageHeader-Content {
     position: relative;
+
+    padding: 80px 0;
 }
 
 .PageHeader-Title {
     margin: 0;
 
     text-align: center;
+}
+
+.PageHeader-Title-Heading {
+    @extend %visually-hidden;
 }

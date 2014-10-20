@@ -1,0 +1,13 @@
+.Bt {
+    display: inline-block;
+    padding: 6px 8px;
+    
+    border: 0;
+    font-family: inherit;
+}
+
+.Bt--primary {
+    background-color: $primary-color;
+
+    color: $light-text-color;
+}

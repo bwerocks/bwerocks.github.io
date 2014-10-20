@@ -17,7 +17,8 @@ gulp.task('sass', function() {
 
     gulp.src(files.scss).
          pipe(sass({
-            includePaths: [paths.scss]
+            includePaths: [paths.scss],
+            errLogToConsole: true
          })).
          pipe(gulp.dest(paths.css));
 

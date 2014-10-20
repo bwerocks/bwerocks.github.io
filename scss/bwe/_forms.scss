@@ -1,0 +1,54 @@
+input,
+textarea {
+    width: 100%;
+    padding: 6px 8px;
+
+    font-family: inherit;
+
+    border: 0;
+
+    @include placeholder {
+    }
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+}
+
+.Form {
+    margin-top: 100px;
+}
+
+.Form-Legend {
+    padding: 0 60px;
+    margin-bottom: 10px;
+
+    font-style: italic;
+    font-size: em(30px);
+    line-height: 1.2;
+}
+
+.Form-Label {
+    @include span-columns(3 of 6);
+    margin-bottom: 20px;
+
+    span {
+        @extend %visually-hidden;
+    }
+    
+    &:nth-of-type(2n) {
+        margin-right: 0;
+    }
+}
+
+.Form-Label--full {
+    width: 100%;
+}
+
+.Form-Button {
+    @include span-columns(4 of 6);
+    @include shift(1);
+}

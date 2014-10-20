@@ -22,59 +22,67 @@
         <![endif]-->
 
         <header class="PageHeader">
-            <div class="PageHeader-Content">
-                <h1 class="PageHeader-Title">
-                    <figure>
-                        <img src="img/bbbwwweee.png">
-                        <figcaption>
-                            BWE
-                        </figcaption>
-                    </figure>
-                    <span>Digital.Development.Agency</span>
-                    <span>No Bullsh**t Since 2014</span>
-                </h1>
-                <nav>
-                    <a href="pt-BR">Portuguese</a>
-                    <a href="en">English</a>
-                </nav>
+            <div class="Wrapper">
+                <div class="PageHeader-Content">
+                    <h1 class="PageHeader-Title">
+                        <figure>
+                            <img src="img/bbbwwweee.png">
+                            <figcaption class="PageHeader-Title-Heading">
+                                BWE - Digital Development Agency - No Bulls**t Since 2014
+                            </figcaption>
+                        </figure>
+                    </h1>
+                    <nav class="LanguageNav">
+                        <a class="LanguageNav-Item LanguageNav-Item--active" href="pt-BR">Portuguese</a>
+                        <a class="LanguageNav-Item" href="en">English</a>
+                    </nav>
+                </div>
             </div>
         </header>
 
         <main class="PageContent">
-            <div class="PageContent-Content">
-                <p>
-                    BWE é uma agência digital focada em criação e
-                    desenvolvimento de sites multiplataformas, sistemas e
-                    aplicativos web.
-                </p>
-                <p>
-                    Nosso método de trabalho inclui análise,
-                    UX/UI/AI, Design e Desenvolvimento (PHP, HTML JavaScript, CSS).
-                </p>
-                <a href="mailto:contato@bwe.rocks">contato@bwe.rocks</a>
-                <a href="ello.co/bwe">ello.co/bwe</a>
-                <form>
-                    <legend>Deseja mais informações? Entre em contato:</legend>
-                    <fieldset>
-                        <label>
-                            <span>Nome (obrigatório)</span>
-                            <input type="text" placeholder="Nome (obrigatório)">
-                        </label>
-                        <label>
-                            <span>E-mail (obrigatório)</span>
-                            <input type="text" placeholder="E-mail (obrigatório)">
-                        </label>
-                        <label>
-                            <span>Mensagem (obrigatório)</span>
-                            <textarea placeholder="Mensagem (obrigatório)"></textarea>
-                        </label>
-                        <button type="submit">Enviar</button>
-                    </fieldset>
-                </form>
+            <div class="Wrapper">
+                <div class="PageContent-Content">
+                    <p>
+                        BWE é uma agência digital focada em criação e
+                        desenvolvimento de sites multiplataformas, sistemas e
+                        aplicativos web.
+                    </p>
+                    <p>
+                        Nosso método de trabalho inclui análise,
+                        UX/UI/AI, Design e Desenvolvimento (PHP, HTML JavaScript, CSS).
+                    </p>
+                    <a class="SocialLink" href="mailto:contato@bwe.rocks">
+                        <img class="SocialLink-Icon" src="img/icon-mail.png">
+                        contato@bwe.rocks
+                    </a>
+                    <a class="SocialLink" href="ello.co/bwe">
+                        <img class="SocialLink-Icon" src="img/icon-ello.png">
+                        ello.co/bwe
+                    </a>
+                    <form class="Form">
+                        <legend class="Form-Legend">Deseja mais informações? Entre em contato:</legend>
+                        <fieldset>
+                            <label class="Form-Label">
+                                <span>Nome (obrigatório)</span>
+                                <input type="text" placeholder="Nome (obrigatório)">
+                            </label>
+                            <label class="Form-Label">
+                                <span>E-mail (obrigatório)</span>
+                                <input type="text" placeholder="E-mail (obrigatório)">
+                            </label>
+                            <label class="Form-Label Form-Label--full">
+                                <span>Mensagem (obrigatório)</span>
+                                <textarea placeholder="Mensagem (obrigatório)"></textarea>
+                            </label>
+                            <button class="Form-Button Bt Bt--primary" type="submit">Enviar</button>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
         </main>
 
-        <footer>
+        <footer class="PageFooter">
             © BWE - Digital.Development.Agency - No Bullsh**t since 2014
         </footer>
 
