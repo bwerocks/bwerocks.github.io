@@ -5,6 +5,7 @@
 }
 
 .LanguageNav-Item {
+    @include transition(all .3s ease);
     display: inline-block;
     padding: 10px;
 
@@ -13,10 +14,18 @@
     text-decoration: none;
 
     background-color: lighten($primary-color, 20%);
+
+    &:hover {
+        background-color: lighten($primary-color, 5%);
+    }
 }
 
 .LanguageNav-Item--active {
     color: $primary-color;
 
     background-color: $outer-color;
+
+    &:hover {
+        background-color: $outer-color;
+    }
 }
