@@ -1,0 +1,7 @@
+.Wrapper {
+    @include outer-container;
+    position: relative;
+
+    max-width: $max-width + 20px;
+    padding: 0 10px;
+}

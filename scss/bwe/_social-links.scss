@@ -1,0 +1,23 @@
+.SocialLink {
+    @include transition(all .3s ease);
+    margin: 10px;
+
+    font-size: em(16px);
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+        color: lighten($primary-color, 10%);
+    }
+}
+
+.SocialLink,
+.SocialLink-Icon {
+    display: inline-block;
+
+    vertical-align: middle;
+}
+
+.SocialLink-Icon {
+    margin-right: 10px;
+}

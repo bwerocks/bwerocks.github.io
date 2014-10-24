@@ -12,9 +12,7 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Press+Start+2P">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400">
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,300,100italic">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -22,17 +20,71 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <section class="Page">
-            <div class="Page-Content">
-                <!--<div class="Impressive">
-                    <img class="Impressive-Image" src="img/nhonho.png">
-                    <span class="Impressive-Content">Impressionante!</span>
-                </div>-->
-                <img class="MainLogo" src="img/bbbwwweee.png">
-                <div class="Slogan">Development, no bullshit</div>
-                <a class="ContactLink" href="mailto:contato@bwe.rocks">contato@bwe.rocks</a>
+
+        <header class="PageHeader">
+            <div class="Wrapper">
+                <div class="PageHeader-Content">
+                    <h1 class="PageHeader-Title">
+                        <figure>
+                            <img class="Img--responsive" src="img/bbbwwweee.png">
+                            <figcaption class="PageHeader-Title-Heading">
+                                BWE - Digital Development Agency - No Bulls**t Since 2014
+                            </figcaption>
+                        </figure>
+                    </h1>
+                    <nav class="LanguageNav">
+                        <a class="LanguageNav-Item LanguageNav-Item--active" href="pt-BR">Portuguese</a>
+                        <a class="LanguageNav-Item" href="en">English</a>
+                    </nav>
+                </div>
             </div>
-        </section>
+        </header>
+
+        <main class="PageContent">
+            <div class="Wrapper">
+                <div class="PageContent-Content">
+                    <p>
+                        BWE é uma agência digital focada em criação e
+                        desenvolvimento de sites multiplataformas, sistemas e
+                        aplicativos web.
+                    </p>
+                    <p>
+                        Nosso método de trabalho inclui análise,
+                        UX/UI/AI, Design e Desenvolvimento (PHP, HTML JavaScript, CSS).
+                    </p>
+                    <a class="SocialLink" href="mailto:contato@bwe.rocks">
+                        <img class="SocialLink-Icon" src="img/icon-mail.png">
+                        contato@bwe.rocks
+                    </a>
+                    <a class="SocialLink" href="http://ello.co/bwe" rel="external">
+                        <img class="SocialLink-Icon" src="img/icon-ello.png">
+                        ello.co/bwe
+                    </a>
+                    <form action="https://docs.google.com/forms/d/1CjUesN_zybXPpuPNGhhnPx05aeDpSkDzumfsxIVMdd4/formResponse" class="Form js-contact-form">
+                        <legend class="Form-Legend">Deseja mais informações? Entre em contato:</legend>
+                        <fieldset>
+                            <label class="Form-Label">
+                                <span>Nome (obrigatório)</span>
+                                <input class="Form-Input" type="text" placeholder="Nome (obrigatório)" name="entry.1883657676">
+                            </label>
+                            <label class="Form-Label">
+                                <span>E-mail (obrigatório)</span>
+                                <input class="Form-Input" type="email" placeholder="E-mail (obrigatório)" name="entry.156984000">
+                            </label>
+                            <label class="Form-Label Form-Label--full">
+                                <span>Mensagem (obrigatório)</span>
+                                <textarea class="Form-Input" placeholder="Mensagem (obrigatório)" name="entry.1358955039" rows="3"></textarea>
+                            </label>
+                            <button class="Form-Button Bt Bt--primary" type="submit">Enviar</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer class="PageFooter">
+            © BWE - Digital.Development.Agency - No Bullsh**t since 2014
+        </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>

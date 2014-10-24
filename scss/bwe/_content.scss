@@ -1,0 +1,43 @@
+.PageContent {
+    @extend %full-bg-image;
+    @extend %pseudo-overlay;
+    padding-bottom: 100px;
+
+    background-image: url(../img/guys--jumping.png);
+
+    &:before {
+        background-color: rgba($secondary-color, .8);
+
+        content: "";
+    }
+}
+
+.PageContent-Content {
+    @include span-columns(6);
+    @include shift(3);
+    position: relative;
+
+    padding-top: 40px;
+
+    text-align: center;
+    color: $light-text-color;
+
+    p {
+        font-size: em(18px);
+        line-height: 1.2;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .PageContent-Content {
+        @include span-columns(10);
+        @include shift(1);
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .PageContent-Content {
+        @include span-columns(12);
+        @include shift(0);
+    }
+}
